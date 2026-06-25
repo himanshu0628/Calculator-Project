@@ -63,5 +63,17 @@ int main(){
         scanf("%lf",&a);
         printf("%10f",tan(a));
         break;
+        case 10:
+        printf("Enter number : ");
+        scanf("%lf",&a);
+        printf("%10f",log10(a));
+        break;
+        case 11:
+        printf("Enter number : ");
+        scanf("%lf",&a);
+        printf("%10f",log(a));
+        break;
+        default:
+        break;
 }
 }
