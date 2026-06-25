@@ -14,4 +14,29 @@ int main(){
     printf("9 - Tangent\n");
     printf("10 - Logarithm\n");
     printf("11 - Natural log\n");
+    int choice;
+    printf("Enter choice : ");
+    scanf("%d",&choice);
+    switch(choice){
+        case 1:
+        printf("Enter first and second number : ");
+        scanf("%lf %lf",&a,&b);
+        printf("Sum : %10f\n",a + b);
+        break;
+        case 2 :
+        printf("Enter first and second number : ");
+        scanf("%lf %lf",&a,&b);
+        printf("Difference : %10f\n",a - b);
+        break;
+        case 3:
+        printf("Enter first and second number : ");
+        scanf("%lf %lf",&a,&b);
+        printf("Product : %10f\n",a * b);
+        break;
+        case 4:
+        printf("Enter first and second number : ");
+        scanf("%lf %lf",&a,&b);
+        printf("Quotient : %10f\n",a / b);
+        break;
+}
 }
