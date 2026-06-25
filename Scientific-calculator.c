@@ -38,5 +38,15 @@ int main(){
         scanf("%lf %lf",&a,&b);
         printf("Quotient : %10f\n",a / b);
         break;
+        case 5:
+        printf("Enter number and power : ");
+        scanf("%lf %lf",&a,&b);
+        printf("%10f\n",pow(a,b));
+        break;
+        case 6:
+        printf("Enter number : ");
+        scanf("%lf",&a);
+        printf("%10f",sqrt(a));
+        break;
 }
 }
