@@ -48,5 +48,20 @@ int main(){
         scanf("%lf",&a);
         printf("%10f",sqrt(a));
         break;
+        case 7:
+        printf("Enter number : ");
+        scanf("%lf",&a);
+        printf("%10f",sin(a));
+        break;
+        case 8:
+        printf("Enter number : ");
+        scanf("%lf",&a);
+        printf("%10f",cos(a));
+        break;
+        case 9:
+        printf("Enter number : ");
+        scanf("%lf",&a);
+        printf("%10f",tan(a));
+        break;
 }
 }
